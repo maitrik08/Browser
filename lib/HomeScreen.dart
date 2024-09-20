@@ -301,7 +301,7 @@ class _HomeScreenState extends State<HomeScreen> {
               icon: InkWell(
                   onTap: () {
                     loadHomePage();
-                    print(webProvider.HomepageUri)
+                    print(webProvider.HomepageUri);
                   },
                   child: Icon(
                     Icons.home_outlined,
